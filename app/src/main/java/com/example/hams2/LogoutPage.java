@@ -7,26 +7,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class LogoutPage extends AppCompatActivity {
     private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_logout_page);
 
-        button = (Button) findViewById(R.id.Signup);
+        button = (Button) findViewById(R.id.LogoutButton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openRegisterMenu();
+                returnToHomePage();
             }
         });
     }
 
-    public void openRegisterMenu(){
+    public void returnToHomePage(){
 
-        Intent intent= new Intent(this,RegisterMenu.class);
+        Intent intent= new Intent(this,HomeMenu.class);
         startActivity(intent);
     }
 }

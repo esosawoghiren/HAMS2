@@ -14,6 +14,7 @@
         android:layout_marginBottom="244dp"
         android:backgroundTint='#e0218a'
         android:text="Sign Up"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -24,6 +25,7 @@
         android:layout_marginStart="28dp"
         android:backgroundTint='#e0218a'
         android:text="LOGIN"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/signup"
         app:layout_constraintHorizontal_bias="0.571"
@@ -51,7 +53,7 @@
         android:fontFamily="sans-serif-condensed"
         android:text="Welcome to HAMS"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/signup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
